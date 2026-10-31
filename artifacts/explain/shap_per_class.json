@@ -1,0 +1,332 @@
+{
+  "Backdoor": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.284320116043091
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 2.049190044403076
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.9339200258255005
+    },
+    {
+      "feature": "tcp.len",
+      "importance": 0.43643999099731445
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.3928000032901764
+    }
+  ],
+  "DDoS_HTTP": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.398519992828369
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 1.1708199977874756
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.8564500212669373
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.6745100021362305
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.310589998960495
+    }
+  ],
+  "DDoS_ICMP": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.974839925765991
+    },
+    {
+      "feature": "icmp.checksum",
+      "importance": 0.8637599945068359
+    },
+    {
+      "feature": "icmp.seq_le",
+      "importance": 0.7946799993515015
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.38773998618125916
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.3568199872970581
+    }
+  ],
+  "DDoS_TCP": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.32423996925354
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 1.9878100156784058
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.8692399859428406
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.7842900156974792
+    },
+    {
+      "feature": "tcp.len",
+      "importance": 0.4140099883079529
+    }
+  ],
+  "DDoS_UDP": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.8857998847961426
+    },
+    {
+      "feature": "udp.stream",
+      "importance": 1.3142999410629272
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.387580007314682
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.34804999828338623
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.29927000403404236
+    }
+  ],
+  "Fingerprinting": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.310499906539917
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.8980799913406372
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.5872600078582764
+    },
+    {
+      "feature": "tcp.connection.rst",
+      "importance": 0.5049399733543396
+    },
+    {
+      "feature": "icmp.checksum",
+      "importance": 0.4735200107097626
+    }
+  ],
+  "MITM": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.83024001121521
+    },
+    {
+      "feature": "tcp.len",
+      "importance": 1.2252099514007568
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.5236999988555908
+    },
+    {
+      "feature": "udp.stream",
+      "importance": 0.38477998971939087
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.36136001348495483
+    }
+  ],
+  "Normal": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 5.738420009613037
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 2.690459966659546
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 0.7586600184440613
+    },
+    {
+      "feature": "mqtt.hdrflags",
+      "importance": 0.6142699718475342
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.3071900010108948
+    }
+  ],
+  "Password": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.584019899368286
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 2.229490041732788
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.7683500051498413
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.5877900123596191
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.2727000117301941
+    }
+  ],
+  "Port_Scanning": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.325510025024414
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 1.0987299680709839
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 0.9824399948120117
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.7056199908256531
+    },
+    {
+      "feature": "tcp.connection.rst",
+      "importance": 0.6304500102996826
+    }
+  ],
+  "Ransomware": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.113379955291748
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 1.50423002243042
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.661899983882904
+    },
+    {
+      "feature": "tcp.len",
+      "importance": 0.5704399943351746
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.3706800043582916
+    }
+  ],
+  "SQL_injection": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 3.0083398818969727
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 2.2355799674987793
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.5907999873161316
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.5290499925613403
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.2162500023841858
+    }
+  ],
+  "Uploading": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.2975900173187256
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 2.189239978790283
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.8436599969863892
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.4824199974536896
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.2777099907398224
+    }
+  ],
+  "Vulnerability_scanner": [
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.39667010307312
+    },
+    {
+      "feature": "tcp.ack",
+      "importance": 1.6984100341796875
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 1.1298400163650513
+    },
+    {
+      "feature": "tcp.len",
+      "importance": 1.007889986038208
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 0.40724000334739685
+    }
+  ],
+  "XSS": [
+    {
+      "feature": "tcp.ack",
+      "importance": 2.4136900901794434
+    },
+    {
+      "feature": "tcp.dstport",
+      "importance": 2.1064798831939697
+    },
+    {
+      "feature": "tcp.seq",
+      "importance": 1.1806000471115112
+    },
+    {
+      "feature": "tcp.flags",
+      "importance": 0.4851599931716919
+    },
+    {
+      "feature": "tcp.connection.synack",
+      "importance": 0.2567099928855896
+    }
+  ]
+}

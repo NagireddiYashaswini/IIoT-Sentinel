@@ -1,0 +1,33 @@
+{
+  "mode": "FAST",
+  "training_date": "2026-10-31T11:58:46.295420",
+  "random_seed": 42,
+  "dataset_used": "Edge-IIoTset (ML-EdgeIIoT-dataset.csv)",
+  "feature_count": 47,
+  "class_count": 15,
+  "class_names": [
+    "Backdoor",
+    "DDoS_HTTP",
+    "DDoS_ICMP",
+    "DDoS_TCP",
+    "DDoS_UDP",
+    "Fingerprinting",
+    "MITM",
+    "Normal",
+    "Password",
+    "Port_Scanning",
+    "Ransomware",
+    "SQL_injection",
+    "Uploading",
+    "Vulnerability_scanner",
+    "XSS"
+  ],
+  "model_selected": "xgb",
+  "best_threshold": 0.190741,
+  "autoencoder_threshold": 0.13098,
+  "test_sample_size": 5224,
+  "training_status": "COMPLETED_SUCCESSFULLY",
+  "evaluation_status": "COMPLETED_SUCCESSFULLY",
+  "autoencoder_threshold_percentile": "p99.0",
+  "comparison_autoencoder_threshold_p95": 0.099337
+}

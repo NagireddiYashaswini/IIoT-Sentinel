@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# Dataset
+Edge-IIoTset dataset/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Sensitive credentials
+.env
+.env.*
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# Dataset
+Edge-IIoTset dataset/
+
+# Logs
+*.log

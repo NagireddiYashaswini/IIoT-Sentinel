@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.9921516079632465,
+  "precision": 0.9912398921832885,
+  "recall": 0.9995469988674972,
+  "attack_recall": 0.9995469988674972,
+  "f1": 0.9953761136799368,
+  "macro_f1": 0.9847215799266225,
+  "roc_auc": 0.9997596406228344,
+  "tp": 4413,
+  "fp": 39,
+  "tn": 770,
+  "fn": 2,
+  "fnr": 0.00045300113250283127,
+  "fpr": 0.048207663782447466,
+  "confusion_matrix": [
+    [
+      770,
+      39
+    ],
+    [
+      2,
+      4413
+    ]
+  ],
+  "category_counts": {
+    "KNOWN ATTACK": 4438,
+    "NORMAL": 772,
+    "POTENTIAL UNKNOWN ATTACK": 10,
+    "SUSPICIOUS / UNCERTAIN": 4
+  },
+  "attacks_salvaged_by_autoencoder": 2,
+  "false_alarms_added_by_autoencoder": 11,
+  "configured_ae_threshold": 0.13098,
+  "configured_binary_threshold": 0.190741,
+  "configured_ae_percentile": "p99.0",
+  "comparison_p95_configuration": {
+    "configured_binary_threshold": 0.125,
+    "configured_ae_threshold": 0.099337,
+    "configured_ae_percentile": "p95.0",
+    "tp": 4414,
+    "tn": 704,
+    "fp": 105,
+    "fn": 1,
+    "attack_recall": 0.999773,
+    "fnr": 0.000227,
+    "fpr": 0.12979,
+    "macro_f1": 0.959061,
+    "note": "Optional high-sensitivity operating point (elevated false alarms: FPR 12.98%)"
+  }
+}

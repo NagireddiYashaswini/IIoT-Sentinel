@@ -1,0 +1,105 @@
+{
+  "Backdoor": {
+    "precision": 0.9749216300940439,
+    "recall": 0.9174041297935103,
+    "f1-score": 0.9452887537993921,
+    "support": 339.0
+  },
+  "DDoS_HTTP": {
+    "precision": 0.6526315789473685,
+    "recall": 0.8831908831908832,
+    "f1-score": 0.7506053268765133,
+    "support": 351.0
+  },
+  "DDoS_ICMP": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 469.0
+  },
+  "DDoS_TCP": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 341.0
+  },
+  "DDoS_UDP": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 483.0
+  },
+  "Fingerprinting": {
+    "precision": 0.2767857142857143,
+    "recall": 0.9117647058823529,
+    "f1-score": 0.4246575342465753,
+    "support": 34.0
+  },
+  "MITM": {
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9629629629629629,
+    "support": 14.0
+  },
+  "Normal": {
+    "precision": 0.9753390875462392,
+    "recall": 0.9789603960396039,
+    "f1-score": 0.9771463866584311,
+    "support": 808.0
+  },
+  "Password": {
+    "precision": 0.7005649717514124,
+    "recall": 0.7447447447447447,
+    "f1-score": 0.7219796215429404,
+    "support": 333.0
+  },
+  "Port_Scanning": {
+    "precision": 0.9690402476780186,
+    "recall": 0.9343283582089552,
+    "f1-score": 0.9513677811550152,
+    "support": 335.0
+  },
+  "Ransomware": {
+    "precision": 0.9710610932475884,
+    "recall": 0.8319559228650137,
+    "f1-score": 0.8961424332344213,
+    "support": 363.0
+  },
+  "SQL_injection": {
+    "precision": 0.8671328671328671,
+    "recall": 0.7230320699708455,
+    "f1-score": 0.7885532591414944,
+    "support": 343.0
+  },
+  "Uploading": {
+    "precision": 0.8754098360655738,
+    "recall": 0.7807017543859649,
+    "f1-score": 0.8253477588871716,
+    "support": 342.0
+  },
+  "Vulnerability_scanner": {
+    "precision": 1.0,
+    "recall": 0.9313432835820895,
+    "f1-score": 0.964451313755796,
+    "support": 335.0
+  },
+  "XSS": {
+    "precision": 0.8451612903225807,
+    "recall": 0.7844311377245509,
+    "f1-score": 0.8136645962732919,
+    "support": 334.0
+  },
+  "accuracy": 0.899885145482389,
+  "macro avg": {
+    "precision": 0.8738698878047605,
+    "recall": 0.8900285876639963,
+    "f1-score": 0.8681445152356003,
+    "support": 5224.0
+  },
+  "weighted avg": {
+    "precision": 0.9166480125533031,
+    "recall": 0.899885145482389,
+    "f1-score": 0.9047462607103309,
+    "support": 5224.0
+  }
+}

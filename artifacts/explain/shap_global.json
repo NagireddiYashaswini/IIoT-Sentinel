@@ -1,0 +1,190 @@
+[
+  {
+    "feature": "tcp.dstport",
+    "importance": 3.452630043029785
+  },
+  {
+    "feature": "tcp.ack",
+    "importance": 1.3149700164794922
+  },
+  {
+    "feature": "tcp.seq",
+    "importance": 0.9426400065422058
+  },
+  {
+    "feature": "tcp.flags",
+    "importance": 0.5611699819564819
+  },
+  {
+    "feature": "tcp.connection.synack",
+    "importance": 0.3089500069618225
+  },
+  {
+    "feature": "tcp.len",
+    "importance": 0.2771100103855133
+  },
+  {
+    "feature": "udp.stream",
+    "importance": 0.20732000470161438
+  },
+  {
+    "feature": "tcp.ack_raw",
+    "importance": 0.1800599992275238
+  },
+  {
+    "feature": "tcp.checksum",
+    "importance": 0.1631699949502945
+  },
+  {
+    "feature": "mqtt.hdrflags",
+    "importance": 0.15891000628471375
+  },
+  {
+    "feature": "icmp.seq_le",
+    "importance": 0.1271899938583374
+  },
+  {
+    "feature": "icmp.checksum",
+    "importance": 0.11509999632835388
+  },
+  {
+    "feature": "tcp.connection.rst",
+    "importance": 0.08968000113964081
+  },
+  {
+    "feature": "arp.opcode",
+    "importance": 0.0206300001591444
+  },
+  {
+    "feature": "http.response",
+    "importance": 0.01624000072479248
+  },
+  {
+    "feature": "tcp.connection.syn",
+    "importance": 0.007899999618530273
+  },
+  {
+    "feature": "udp.port",
+    "importance": 0.00686000008136034
+  },
+  {
+    "feature": "udp.time_delta",
+    "importance": 0.005489999894052744
+  },
+  {
+    "feature": "dns.qry.name",
+    "importance": 0.0018100000452250242
+  },
+  {
+    "feature": "dns.qry.name.len",
+    "importance": 5.999999848427251e-05
+  },
+  {
+    "feature": "http.request.method_NONE",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.method_TRACE",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.method_POST",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.version_HTTP/1.1",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.version_NONE",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.version_OTHER",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.protoname_MQTT",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.protoname_NONE",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.topic_NONE",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.topic_SENSOR_TELEMETRY",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.version_HTTP/1.0",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.proto_len",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.topic_len",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.ver",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.request.method_GET",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.conflag.cleansess",
+    "importance": 0.0
+  },
+  {
+    "feature": "dns.retransmit_request",
+    "importance": 0.0
+  },
+  {
+    "feature": "dns.retransmission",
+    "importance": 0.0
+  },
+  {
+    "feature": "dns.qry.qu",
+    "importance": 0.0
+  },
+  {
+    "feature": "tcp.flags.ack",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.msgtype",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.len",
+    "importance": 0.0
+  },
+  {
+    "feature": "mqtt.conflags",
+    "importance": 0.0
+  },
+  {
+    "feature": "tcp.connection.fin",
+    "importance": 0.0
+  },
+  {
+    "feature": "http.content_length",
+    "importance": 0.0
+  },
+  {
+    "feature": "icmp.transmit_timestamp",
+    "importance": 0.0
+  },
+  {
+    "feature": "arp.hw.size",
+    "importance": 0.0
+  }
+]

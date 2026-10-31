@@ -1,0 +1,17 @@
+{
+  "Normal": 809,
+  "DDoS_UDP": 482,
+  "DDoS_ICMP": 469,
+  "Ransomware": 364,
+  "DDoS_HTTP": 352,
+  "SQL_injection": 343,
+  "DDoS_TCP": 341,
+  "Uploading": 341,
+  "Backdoor": 339,
+  "XSS": 335,
+  "Vulnerability_scanner": 335,
+  "Port_Scanning": 335,
+  "Password": 332,
+  "Fingerprinting": 33,
+  "MITM": 14
+}

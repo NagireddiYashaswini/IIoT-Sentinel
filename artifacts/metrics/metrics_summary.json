@@ -1,0 +1,178 @@
+{
+  "mode": "fast",
+  "best_supervised_model": "xgb",
+  "supervised_benchmarks": {
+    "rf": {
+      "accuracy": 0.985260336906585,
+      "precision": 0.9988503104161877,
+      "recall": 0.9836956521739131,
+      "attack_recall": 0.9836956521739131,
+      "f1": 0.9912150598973188,
+      "macro_f1": 0.9727317129551953,
+      "roc_auc": 0.9992951486045344,
+      "tp": 4344,
+      "fp": 5,
+      "tn": 803,
+      "fn": 72,
+      "fnr": 0.016304347826086956,
+      "fpr": 0.006188118811881188,
+      "confusion_matrix": [
+        [
+          803,
+          5
+        ],
+        [
+          72,
+          4344
+        ]
+      ],
+      "model_name": "RF",
+      "train_time_sec": 0.404,
+      "inference_latency_ms_per_sample": 0.0128
+    },
+    "dt": {
+      "accuracy": 0.9908116385911179,
+      "precision": 0.9977210574293528,
+      "recall": 0.9913949275362319,
+      "attack_recall": 0.9913949275362319,
+      "f1": 0.9945479327578374,
+      "macro_f1": 0.9826754262329334,
+      "roc_auc": 0.9959799648443105,
+      "tp": 4378,
+      "fp": 10,
+      "tn": 798,
+      "fn": 38,
+      "fnr": 0.008605072463768116,
+      "fpr": 0.012376237623762377,
+      "confusion_matrix": [
+        [
+          798,
+          10
+        ],
+        [
+          38,
+          4378
+        ]
+      ],
+      "model_name": "DT",
+      "train_time_sec": 0.068,
+      "inference_latency_ms_per_sample": 0.0003
+    },
+    "lr": {
+      "accuracy": 0.7318147013782542,
+      "precision": 0.976303317535545,
+      "recall": 0.6997282608695652,
+      "attack_recall": 0.6997282608695652,
+      "f1": 0.815195884447962,
+      "macro_f1": 0.6632658878117034,
+      "roc_auc": 0.8789440849655616,
+      "tp": 3090,
+      "fp": 75,
+      "tn": 733,
+      "fn": 1326,
+      "fnr": 0.30027173913043476,
+      "fpr": 0.09282178217821782,
+      "confusion_matrix": [
+        [
+          733,
+          75
+        ],
+        [
+          1326,
+          3090
+        ]
+      ],
+      "model_name": "LR",
+      "train_time_sec": 0.373,
+      "inference_latency_ms_per_sample": 0.0002
+    },
+    "xgb": {
+      "accuracy": 0.9946401225114855,
+      "precision": 0.9970548255550521,
+      "recall": 0.9966032608695652,
+      "attack_recall": 0.9966032608695652,
+      "f1": 0.9968289920724802,
+      "macro_f1": 0.9897618384342624,
+      "roc_auc": 0.999744403788205,
+      "tp": 4401,
+      "fp": 13,
+      "tn": 795,
+      "fn": 15,
+      "fnr": 0.0033967391304347825,
+      "fpr": 0.01608910891089109,
+      "confusion_matrix": [
+        [
+          795,
+          13
+        ],
+        [
+          15,
+          4401
+        ]
+      ],
+      "model_name": "XGB",
+      "train_time_sec": 0.518,
+      "inference_latency_ms_per_sample": 0.0019
+    }
+  },
+  "threshold_optimization": {
+    "best_threshold": 0.190741,
+    "default_metrics": {
+      "accuracy": 0.9946401225114855,
+      "precision": 0.9970548255550521,
+      "recall": 0.9966032608695652,
+      "attack_recall": 0.9966032608695652,
+      "f1": 0.9968289920724802,
+      "macro_f1": 0.9897618384342624,
+      "roc_auc": 0.999744403788205,
+      "tp": 4401,
+      "fp": 13,
+      "tn": 795,
+      "fn": 15,
+      "fnr": 0.0033967391304347825,
+      "fpr": 0.01608910891089109,
+      "confusion_matrix": [
+        [
+          795,
+          13
+        ],
+        [
+          15,
+          4401
+        ]
+      ],
+      "threshold": 0.5
+    },
+    "optimized_metrics": {
+      "accuracy": 0.9942572741194488,
+      "precision": 0.9943642921550947,
+      "recall": 0.9988677536231884,
+      "attack_recall": 0.9988677536231884,
+      "f1": 0.9966109353818347,
+      "macro_f1": 0.9889069714503158,
+      "roc_auc": 0.999744403788205,
+      "tp": 4411,
+      "fp": 25,
+      "tn": 783,
+      "fn": 5,
+      "fnr": 0.0011322463768115942,
+      "fpr": 0.03094059405940594,
+      "confusion_matrix": [
+        [
+          783,
+          25
+        ],
+        [
+          5,
+          4411
+        ]
+      ]
+    },
+    "target_configuration_label": "Validation-Tuned (FPR <= 0.05)"
+  },
+  "cross_dataset": {
+    "status": "not_run",
+    "reason": "External ToN-IoT dataset is not currently supplied in data/raw/ton_iot/. Cross-dataset evaluation was safely skipped without fabricating synthetic metrics.",
+    "instructions": "To enable cross-dataset testing, place the ToN-IoT network CSV file into 'data/raw/ton_iot/' and re-run with --cross-dataset."
+  }
+}
